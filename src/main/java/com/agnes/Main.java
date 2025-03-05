@@ -9,11 +9,11 @@ public class Main {
         // exercise 2 is on variable. i wish ti create a program that declares my age, height, first initials, and if i love java with my full name
 
         int age = 29;
-        double height =162.5;
+        double height = 162.5;
         char firstInitials = 'A';
         boolean whetherLoveJava = true;
         String fullName = "Agnes Nazie";
-        System.out.println( "Age:" + age);
+        System.out.println("Age:" + age);
         System.out.println("Height:" + height);
         System.out.println("First Initials:" + firstInitials);
         System.out.println("Whether I Love Java:" + whetherLoveJava);
@@ -32,14 +32,14 @@ public class Main {
         int favoriteNumber = scanner.nextInt();
 
         System.out.println("Type True or False whether you like Java");
-        boolean whetherYouLikeJava =scanner.nextBoolean();
+        boolean whetherYouLikeJava = scanner.nextBoolean();
         // output was for the user to respond to the question with the hint given.
 
         // practicing  basic operators in java
         //create my own calculator asking user for 2 numbers and also perform basic operations like +,_,*,/,& %.the output should also be clear.
 
         System.out.println("Enter first number:");
-        double num1 =scanner.nextDouble();
+        double num1 = scanner.nextDouble();
 
         System.out.println("Enter second number:");
         double num2 = scanner.nextDouble();
@@ -59,9 +59,20 @@ public class Main {
         System.out.println("----------------------");
         // the output was user interactive and i closed the scanner with scanner.close();.
 
-        // practicing conditional statements (if else) in java.
+        // practicing selections (if else) in java.
 
+        int marks = 95;
+        if (marks >= 90) {
+            System.out.println("Grade: A");
+        } else if (marks >= 80) {
+            System.out.println("Grade: B");
+        } else if (marks >= 70) {
+            System.out.println("Grade: C");
+        } else if (marks >= 60) {
+            System.out.println("Grade: D");
+        }else {
+                System.out.println("Grade: F");
+                            }
+                        }
 
-
-    }
-}
+                    }
